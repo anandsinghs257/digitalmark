@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Digital</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Soft Themez - Software Landing Page Template">
+  <meta name="keywords" content="Software, Bootstrap4, modern, flat style, responsive, business, mobile, blog, bootstrap 4, html5, css3, jquery, js, gallery, slider, touch, creative, clean">
+  <meta name="author" content="Askbootstrap">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"> 
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120909275-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-120909275-1');
+  </script> 
+</head>
+
+<body id="page-top">
+  <%= render 'layouts/header' %>    
+  <%= yield %>
+  <%= render 'layouts/footer' %>
+</body>
+</html>
