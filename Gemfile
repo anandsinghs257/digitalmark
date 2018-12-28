@@ -66,5 +66,6 @@ gem 'bootstrap', '~> 4.2.1'
 gem 'jquery-rails'
 
 gem 'devise'
+gem 'pg'
 gem 'activeadmin'
 gem 'rails_12factor', group: :production
