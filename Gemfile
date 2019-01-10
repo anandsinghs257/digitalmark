@@ -68,4 +68,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise'
 gem 'pg'
 gem 'activeadmin'
-gem 'font-awesome-sass', '~> 5.6.1'
+gem 'rails_12factor', group: :production
