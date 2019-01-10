@@ -11,9 +11,7 @@
 // about supported directives.
 //
 //= require rails-ujs
-//= require jquery3
-//= require popper
-//= require bootstrap
+//= require jquery.min
 //= require bootstrap.bundle.min
 //= require jquery.easing.min
 //= require scrolling-nav
@@ -23,6 +21,3 @@
 //= require owl.carousel
 //= require wow.min
 //= require custom
-//= require cable
-//= require activestorage
-

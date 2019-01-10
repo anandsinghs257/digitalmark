@@ -81,7 +81,7 @@ Version: 1.0
      padding-bottom: 80px;
      background-attachment: scroll;
      background-clip: border-box;
-     background-image: url("../img/path-2-copy-2.png");
+     /*background-image: url("../img/path-2-copy-2.png");*/
      background-origin: padding-box;
      background-position: center top;
      background-repeat: no-repeat;
@@ -91,12 +91,12 @@ Version: 1.0
  .section-title .badge {
      margin: 0 0 8px;
 }
- .section-title-line {
+/* .section-title-line {
      background: rgba(0, 0, 0, 0) url("../img/line.png") repeat scroll 0 0;
      display: inline-block;
      height: 5px;
      width: 53px;
-}
+}*/
 /* Badge */
  .badge {
      border-radius: 100px;
@@ -509,7 +509,7 @@ Version: 1.0
  .bg-primary::after {
      background-attachment: scroll;
      background-clip: border-box;
-     background-image: url("../img/bg-primary.png");
+     /*background-image: url("../img/bg-primary.png");*/
      background-origin: padding-box;
      background-position: 0 0;
      background-repeat: no-repeat;
@@ -603,7 +603,7 @@ Version: 1.0
  .bg-image {
      background-attachment: fixed;
      background-clip: border-box;
-     background-image: url("../img/index-banner.jpg");
+     /*background-image: url("../img/index-banner.jpg");*/
      background-origin: padding-box;
      background-position: center top;
      background-repeat: repeat;
@@ -666,13 +666,7 @@ Version: 1.0
      position: absolute;
      top: 37%;
 }
-/* Features */
- .features-block {
-     background: rgba(0, 0, 0, 0) url("../img/path-2-copy-2.png") no-repeat scroll center center;
-}
- .features-item {
-     background: rgba(0, 0, 0, 0) url("../img/icon-bg.png") no-repeat scroll center top;
-}
+
  .features-item img {
      margin: 20px 0 40px !important;
 }

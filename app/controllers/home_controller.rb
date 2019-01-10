@@ -11,7 +11,7 @@ class HomeController < ApplicationController
 		@user = User.new(user_params)
 		respond_to do |format|
 			if @user.save
-				format.html { redirect_to request.referer, notice: 'Your request submitted successfully.' }
+				format.html { redirect_to request.referrer, notice: 'Your request submitted successfully.' }
 				format.json { render :show, status: :created, location: @user }
 			else
 				format.html { render :new }
