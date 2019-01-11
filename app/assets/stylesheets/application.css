@@ -5,7 +5,6 @@
 *= require owl.theme.default.min
 *= require animate
 *= require osahan
-*= require reboot
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
